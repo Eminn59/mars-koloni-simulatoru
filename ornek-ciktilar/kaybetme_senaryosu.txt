@@ -1,0 +1,93 @@
+==============================================
+   MARS KOLONISI YASAM DESTEK SIMULATORU
+==============================================
+Arastirma istasyonunda tek basina kaldin.
+Kurtarma ekibi 15 gun sonra gelecek. Hayatta kal!
+
+Zorluk seviyesi secin (K: Kolay, N: Normal, Z: Zor): z
+Zor seviye secildi.
+
+----------------------------------------------
+Gun 1 | Tur 0 | Saglik 100 | Enerji 100 | Oksijen 70 | Su 3 | Parca 1 | Hasar 35 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > k
+!!! KUM FIRTINASI BASLADI (7 tur) !!! (Hazirlik: Enerji -10)
+Tur 1: Zar: 8 / Esik: 25 -> Kum yaraladi, Saglik -9
+Tur 2: Ruzgar siddetlendi! Hasar 2 katina cikti. Zar: 54 / Esik: 70 -> Modul darbe aldi, Hasar +18
+Tur 3: Zar: 16 / Esik: 25 -> Kum yaraladi, Saglik -9
+Tur 4: Ruzgar siddetlendi! Hasar 2 katina cikti. Zar: 45 / Esik: 50 -> Oksijen sizintisi! Oksijen -18
+Tur 5: Zar: 71 / Esik: 70 -> Siginakta guvendesin, zarar yok.
+Tur 6: Ruzgar siddetlendi! Hasar 2 katina cikti. Zar: 55 / Esik: 70 -> Modul darbe aldi, Hasar +18
+Tur 7: Zar: 26 / Esik: 50 -> Oksijen sizintisi! Oksijen -9
+--- Firtina Ozeti ---
+Hasar alinan tur : 6
+Kaybedilen saglik: 18
+Kaybedilen oksijen: 27
+
+----------------------------------------------
+Gun 1 | Tur 1 | Saglik 82 | Enerji 90 | Oksijen 43 | Su 3 | Parca 1 | Hasar 71 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > u
+Iyi dinlendin. Saglik +10
+Enerji +25, Oksijen -5
+
+----------------------------------------------
+Gun 1 | Tur 2 | Saglik 92 | Enerji 100 | Oksijen 38 | Su 3 | Parca 1 | Hasar 71 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > k
+!!! KUM FIRTINASI BASLADI (7 tur) !!! (Hazirlik: Enerji -10)
+Tur 1: Zar: 14 / Esik: 25 -> Kum yaraladi, Saglik -9
+Tur 2: Ruzgar siddetlendi! Hasar 2 katina cikti. Zar: 54 / Esik: 85 -> Modul darbe aldi, Hasar +18
+Tur 3: Zar: 48 / Esik: 50 -> Oksijen sizintisi! Oksijen -9
+Tur 4: Ruzgar siddetlendi! Hasar 2 katina cikti. Zar: 9 / Esik: 25 -> Kum yaraladi, Saglik -18
+Tur 5: Zar: 30 / Esik: 50 -> Oksijen sizintisi! Oksijen -9
+Tur 6: Ruzgar siddetlendi! Hasar 2 katina cikti. Zar: 93 / Esik: 85 -> Siginakta guvendesin, zarar yok.
+Tur 7: Zar: 63 / Esik: 85 -> Modul darbe aldi, Hasar +9
+--- Firtina Ozeti ---
+Hasar alinan tur : 6
+Kaybedilen saglik: 27
+Kaybedilen oksijen: 18
+
+>> GUN 2 BASLADI. Gece boyunca oksijen tuketildi (Oksijen -8)
+>> Modul hasari yuksek, kotu kosullar sagligi etkiledi (Saglik -5)
+
+----------------------------------------------
+Gun 2 | Tur 3 | Saglik 60 | Enerji 90 | Oksijen 12 | Su 3 | Parca 1 | Hasar 98 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > u
+Oksijen az oldugu icin uyku kalitesiz gecti. Saglik -8
+Enerji +25, Oksijen -5
+
+----------------------------------------------
+Gun 2 | Tur 4 | Saglik 52 | Enerji 100 | Oksijen 7 | Su 3 | Parca 1 | Hasar 98 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > k
+!!! KUM FIRTINASI BASLADI (7 tur) !!! (Hazirlik: Enerji -10)
+Tur 1: Zar: 61 / Esik: 85 -> Modul darbe aldi, Hasar +9
+Tur 2: Ruzgar siddetlendi! Hasar 2 katina cikti. Zar: 58 / Esik: 85 -> Modul darbe aldi, Hasar +18
+Tur 3: Zar: 37 / Esik: 50 -> Oksijen sizintisi! Oksijen -9
+Firtina sirasinda hayati deger sifira dustu!
+--- Firtina Ozeti ---
+Hasar alinan tur : 3
+Kaybedilen saglik: 0
+Kaybedilen oksijen: 9
+
+*** OKSIJEN BITTI. Istasyonda nefes alinamiyor. ***
+
+############ SONUC RAPORU ############
+Sonuc          : KAYBETTIN
+Hayatta kalinan gun: 2
+Toplam tur     : 5
+Saglik         : 52
+Enerji         : 90
+Oksijen        : 0
+Su             : 3
+Yedek parca    : 1
+Modul hasari   : 100
+PUAN = (2 x 100) + 52 + 0 - 100 = 152
+######################################

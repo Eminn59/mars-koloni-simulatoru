@@ -1,0 +1,143 @@
+==============================================
+   MARS KOLONISI YASAM DESTEK SIMULATORU
+==============================================
+Arastirma istasyonunda tek basina kaldin.
+Kurtarma ekibi 15 gun sonra gelecek. Hayatta kal!
+
+Zorluk seviyesi secin (K: Kolay, N: Normal, Z: Zor): x
+Gecersiz seviye! Lutfen K, N veya Z girin.
+Zorluk seviyesi secin (K: Kolay, N: Normal, Z: Zor): n
+Normal seviye secildi.
+
+----------------------------------------------
+Gun 1 | Tur 0 | Saglik 100 | Enerji 100 | Oksijen 80 | Su 6 | Parca 2 | Hasar 20 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > d
+========== DURUM RAPORU ==========
+Gun            : 1 / 15
+Tur            : 0
+Saglik         : 100
+Enerji         : 100
+Oksijen        : 80
+Su             : 6 birim
+Yedek parca    : 2
+Modul hasari   : 20
+Hava kilidi    : ACIK
+----------------------------------
+>>> TUM SISTEMLER NORMAL <<<
+==================================
+
+----------------------------------------------
+Gun 1 | Tur 0 | Saglik 100 | Enerji 100 | Oksijen 80 | Su 6 | Parca 2 | Hasar 20 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > x
+UYARI: 'x' tanimsiz bir komut! Tur harcanmadi.
+
+----------------------------------------------
+Gun 1 | Tur 0 | Saglik 100 | Enerji 100 | Oksijen 80 | Su 6 | Parca 2 | Hasar 20 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > g
+Kesfe ciktin. (Enerji -15, Oksijen -10)
+Zar: 4 / Esik: 45 -> BASARILI. Buz tabakasi buldun, +3 su.
+Zar: 20 / Esik: 10 -> Yaralanmadan dondun.
+
+----------------------------------------------
+Gun 1 | Tur 1 | Saglik 100 | Enerji 85 | Oksijen 70 | Su 9 | Parca 2 | Hasar 20 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > o
+Kac birim su kullanilsin? (Depoda 9 var): 5
+4 su kullanildi -> +6 oksijen. (Enerji -10)
+Girilen miktar tek oldugu icin 1 birim su depoda kaldi.
+
+----------------------------------------------
+Gun 1 | Tur 2 | Saglik 100 | Enerji 75 | Oksijen 76 | Su 5 | Parca 2 | Hasar 20 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > t
+Hasar seviyesi: HAFIF (20)
+1 parca harcandi, hasar 15 azaldi. (Enerji -10)
+
+>> GUN 2 BASLADI. Gece boyunca oksijen tuketildi (Oksijen -8)
+
+----------------------------------------------
+Gun 2 | Tur 3 | Saglik 100 | Enerji 65 | Oksijen 68 | Su 5 | Parca 1 | Hasar 5 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > u
+Iyi dinlendin. Saglik +10
+Enerji +25, Oksijen -5
+
+----------------------------------------------
+Gun 2 | Tur 4 | Saglik 100 | Enerji 90 | Oksijen 63 | Su 5 | Parca 1 | Hasar 5 | Kilit ACIK
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > h
+Hava kilidi sifresi tek bir harftir (A-Z).
+Ipucu: Sifre, alfabede A harfinden bugunun gun sayisi kadar ilerideki harftir.
+Deneme 1/3 - Harf girin: A
+Yanlis! Ileri git. (Enerji -5)
+Deneme 2/3 - Harf girin: E
+Yanlis! Geri git. (Enerji -5)
+Deneme 3/3 - Harf girin: c
+Dogru sifre! Hava kilidi muhurlendi.
+
+----------------------------------------------
+Gun 2 | Tur 5 | Saglik 100 | Enerji 80 | Oksijen 63 | Su 5 | Parca 1 | Hasar 5 | Kilit MUHURLU
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > k
+!!! KUM FIRTINASI BASLADI (5 tur) !!! (Hazirlik: Enerji -10)
+Tur 1: Zar: 49 / Esik: 50 -> Hava kilidi muhurlu, sizinti olmadi.
+Tur 2: Ruzgar siddetlendi! Hasar 2 katina cikti. Zar: 57 / Esik: 70 -> Modul darbe aldi, Hasar +12
+Tur 3: Zar: 28 / Esik: 50 -> Hava kilidi muhurlu, sizinti olmadi.
+Tur 4: Ruzgar siddetlendi! Hasar 2 katina cikti. Zar: 13 / Esik: 25 -> Kum yaraladi, Saglik -12
+Tur 5: Zar: 41 / Esik: 50 -> Hava kilidi muhurlu, sizinti olmadi.
+--- Firtina Ozeti ---
+Hasar alinan tur : 2
+Kaybedilen saglik: 12
+Kaybedilen oksijen: 0
+
+>> GUN 3 BASLADI. Gece boyunca oksijen tuketildi (Oksijen -8)
+
+----------------------------------------------
+Gun 3 | Tur 6 | Saglik 88 | Enerji 70 | Oksijen 55 | Su 5 | Parca 1 | Hasar 17 | Kilit MUHURLU
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > d
+========== DURUM RAPORU ==========
+Gun            : 3 / 15
+Tur            : 6
+Saglik         : 88
+Enerji         : 70
+Oksijen        : 55
+Su             : 5 birim
+Yedek parca    : 1
+Modul hasari   : 17
+Hava kilidi    : MUHURLU
+----------------------------------
+>>> TUM SISTEMLER NORMAL <<<
+==================================
+
+----------------------------------------------
+Gun 3 | Tur 6 | Saglik 88 | Enerji 70 | Oksijen 55 | Su 5 | Parca 1 | Hasar 17 | Kilit MUHURLU
+Komutlar: G-Kesif  O-Oksijen  T-Tamir  D-Durum
+          U-Uyu  K-Kum firtinasi  H-Hava kilidi  Q-Cikis
+Komut > q
+Simulasyondan cikiliyor...
+
+############ SONUC RAPORU ############
+Sonuc          : Simulasyondan cikildi
+Hayatta kalinan gun: 3
+Toplam tur     : 6
+Saglik         : 88
+Enerji         : 70
+Oksijen        : 55
+Su             : 5
+Yedek parca    : 1
+Modul hasari   : 17
+PUAN = (3 x 100) + 88 + 55 - 17 = 426
+######################################
