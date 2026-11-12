@@ -28,15 +28,15 @@ yedek parça ve modül hasarı her komutta güncellenir.
 GCC kurulu herhangi bir sistemde derlenebilir. Standart kütüphane dışında bağımlılığı yoktur.
 
 ```bash
-gcc src/mars_koloni.c -o mars_koloni
-./mars_koloni
+gcc src/main.c -o main
+./main
 ```
 
 Windows'ta (MinGW / MSYS2):
 
 ```bash
-gcc src/mars_koloni.c -o mars_koloni.exe
-mars_koloni.exe
+gcc src/main.c -o main.exe
+main.exe
 ```
 
 > Konsolda karakter sorunu yaşanmaması için program çıktılarında Türkçe karakter kullanılmamıştır.
@@ -118,7 +118,7 @@ Sağlık ve oksijen 0-100 aralığında olduğu için tek bir günün değerini 
 ```
 mars-koloni-simulatoru/
 ├── src/
-│   └── mars_koloni.c          # programın tüm kaynak kodu
+│   └── main.c                 # programın tüm kaynak kodu
 ├── ornek-ciktilar/
 │   ├── normal_oyun.txt        # tüm komutların denendiği örnek oyun
 │   └── kaybetme_senaryosu.txt # zor seviyede kaybedilen oyun

@@ -4,8 +4,8 @@
  *
  * Muhammed Emin CAMCI - 1260505015
  *
- * Derleme : gcc mars_koloni.c -o mars_koloni
- * Calistir: ./mars_koloni
+ * Derleme : gcc main.c -o main
+ * Calistir: ./main
  */
 
 #include <stdio.h>
